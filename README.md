@@ -39,47 +39,7 @@ The tool includes:
 | Backend       | FastAPI              |
 | Language Model| OpenAI GPT (planning, prompt-saving) |
 | Dev Tools     | Docker, LazyVim, Git |
-| Dataset       | Provided JSON dataset (`/data/reservations.json`) |
+| Dataset       | Provided JSON dataset (`/data/fine-dining-dataset.json`) |
 
 ---
 
-
-## Get started
-```cd Frontend
-```
-
-after that:
-
-```
-npm install && npm run Dev
-```
-You be able to see frontend service in `localhost:3000`
-
-for the best experience, run the backend service:
-
-```
-cd backend && poestry install --no-root
-```
-set the poetry shell
-
-``` 
-poetry shell
-``` 
-
-and:
-
-```
-uvicorn main:app --reload
-```
-
-The frontend will fetch the reservations from `localhost:8000/reservations` and also can see the swagger docs in `/docs`
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
